@@ -21,8 +21,8 @@ OneWire soilTempProb(SOILTEMPPIN);
 
 DHT dht(DHTPIN, DHTTYPE);
 WiFiServer wfServer(80);
-char *w_ssid = "Skynet";
-char *pass = "EVANJAMESHERRING022410";
+char *w_ssid = ""; // your wifi network
+char *pass = ""; //your wifi password
 int status = WL_IDLE_STATUS;
 
 String testString = R"(
